@@ -13,7 +13,8 @@ public class AsciiArt {
 	top();
 	bottom();
     }
-	
+
+//produces the top half of the D
     public static void top() {
 	for (int i=1; i<=SIZE; i++) {
             for (int j=1; j<=i; j++) {
@@ -22,7 +23,8 @@ public class AsciiArt {
             System.out.println();
         }
     }
-	
+
+//produces the bottom half of the D
     public static void bottom() {
         for (int i=SIZE; i>=1; i--) {
             for (int j=1; j<=i; j++) {
